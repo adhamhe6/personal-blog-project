@@ -1,0 +1,27 @@
+/* Typography styles */
+h1 {
+    font-size: 2.5em;
+    font-weight: bold;
+}
+
+h2 {
+    font-size: 2em;
+    font-weight: bold;
+}
+
+h3 {
+    font-size: 1.75em;
+    font-weight: bold;
+}
+
+p {
+    font-size: 1em;
+    line-height: 1.5;
+}
+
+blockquote {
+    font-style: italic;
+    margin: 1em 0;
+    padding-left: 1em;
+    border-left: 4px solid #3498db;
+}

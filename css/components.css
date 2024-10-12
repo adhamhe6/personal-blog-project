@@ -1,0 +1,48 @@
+/* components.css */
+
+/* Image styles */
+.post-image {
+    width: 100%; /* Responsive full-width */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 8px;
+    margin: 20px 0; /* Space above and below */
+}
+
+.author-avatar {
+    width: 100px; /* Fixed size for avatar */
+    height: 100px; /* Fixed size for avatar */
+    border-radius: 50%; /* Circular avatar */
+    margin-right: 15px; /* Space between avatar and text */
+}
+
+/* Author info styling */
+.author-info {
+    display: flex; /* Flex layout for avatar and info */
+    align-items: center; /* Center align items vertically */
+    margin-bottom: 20px; /* Space below section */
+}
+
+.author-details {
+    display: flex; /* Display as flex for vertical alignment */
+    flex-direction: column; /* Align items vertically */
+}
+
+.author-info h2 {
+    margin-bottom: 10px; /* Space below the h2 */
+}
+
+/* Social links styling */
+.social-sharing {
+    margin-top: 20px; /* Space above section */
+}
+
+.social-link {
+    display: inline-block; /* Inline block for spacing */
+    margin-right: 15px; /* Space between links */
+    color: #3498db; /* Color from your design system */
+    text-decoration: none; /* No underline */
+}
+
+.social-link:hover {
+    text-decoration: underline; /* Underline on hover */
+}
